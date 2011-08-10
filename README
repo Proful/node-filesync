@@ -1,0 +1,11 @@
+### TODO ### 
+1. supplies source and target folder name
+2. copy the files from source to target which are not already present in target.
+
+### Design ###
+1. scan and build file path tree from the target folder.
+2. scan and iterate over the source folder
+  for each file check whether it is availabe in source folder or not
+  if present skip
+  else copy from source to target
+
